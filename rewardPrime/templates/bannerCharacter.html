@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Banner</title>
+</head>
+<body>
+    <h1>{{ character.name }}</h1>
+    <img src="{{ character.image }}" alt="{{ character.name }}" style="width: 250px; height: 250px;">
+    <p>Status: {{ character.status }}</p>
+    <p>Species: {{ character.species }}</p>
+    <p>Gender: {{ character.gender }}</p>
+    <p>Origin: {{ character.origin }}</p>
+    <p>Last Location: {{ character.last_location }}</p>
+
+    <h1>REWARD: {{ bounty.title }}</h1>
+    <p>Search Status: {{ bounty.search_status }}</p>
+    <p>description: {{ bounty.description }}</p>
+    <p>amount: {{ bounty.amount }}</p>
+    <p>currency_type: {{ bounty.currency_type }}</p>
+</body>
+</html>
